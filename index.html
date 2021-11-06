@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Glassmorphism Tab Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="heading">
+        <h1 class="heading__title">Amazing Facilities</h1>
+        <p class="heading__text">
+          Everything you need for a relaxed stay. Villa's facilities were
+          designed to accommodate the needs of tourists with very high demands
+          from all over the world
+        </p>
+      </div> -->
+
+      <!-- Tabs Links -->
+      <div class="tab-links-wrapper">
+        <ul class="tab-links">
+          <li class="tab-link active-link" data-key="resraurant">
+            <i class="tab-link__icon fas fa-utensils"></i>
+            <span class="tab-link__title">Restaurant</span>
+          </li>
+          <li class="tab-link" data-key="terrace">
+            <i class="tab-link__icon fas fa-glass-martini-alt"></i>
+            <span class="tab-link__title">Terrace</span>
+          </li>
+          <li class="tab-link" data-key="beach">
+            <i class="tab-link__icon fas fa-sun"></i>
+            <span class="tab-link__title">Beach</span>
+          </li>
+          <li class="tab-link" data-key="playground">
+            <i class="tab-link__icon fas fa-futbol"></i>
+            <span class="tab-link__title">Playground</span>
+          </li>
+          <li class="tab-link" data-key="parking">
+            <i class="tab-link__icon fas fa-car"></i>
+            <span class="tab-link__title">Parking</span>
+          </li>
+        </ul>
+      </div>
+      <!-- end of tabs links -->
+
+      <!-- Tabs Content -->
+      <div class="tab-content-wrapper">
+        <!-- resraurant tab Content -->
+        <div class="tab-content-item" data-key="resraurant">
+          <div class="image-container mr-2">
+            <img src="images/restaurant.jpg" />g
+          </div>
+
+          <div class="text-container">
+            <h2>Delicious Slow-cooked Local Food</h2>
+            <p>
+              We serve delicious food from the local cuisine made with natural
+              ingredients from local farms and markets. Besides the range of
+              meat dishes Villa is vegetarian friendly too.
+            </p>
+            <p>
+              No need to hurry in the morning to get good food since our
+              breakfast serving times extend in the early noon.
+            </p>
+            <p class="bold-text">OPEN FROM 8:00 TO 22:00</p>
+          </div>
+        </div>
+
+        <!-- terrace tab Content -->
+        <div class="tab-content-item dn" data-key="terrace">
+          <div class="text-container mr-2">
+            <h2>Beautiful Terrace For Coffee & Drinks</h2>
+            <p>
+              Start your vacation day with an invigorating coffee and choose to
+              sit down and relax or plan your trips to the surrounding
+              historical sites and tourists attractions.
+            </p>
+            <p>
+              Besides alcoholic beverages we also serve a great assortment of
+              smoothies and non-alcoholic cocktails.
+            </p>
+            <div class="text-container-btns">
+              <button class="btn btn-solid">Article</button>
+              <button class="btn btn-hollow">Contact</button>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="images/terrace.jpg" />
+          </div>
+        </div>
+
+        <!-- beach tab Content -->
+        <div class="tab-content-item dn" data-key="beach">
+          <div class="image-container mr-2">
+            <img src="images/beach.jpg" />
+          </div>
+
+          <div class="text-container">
+            <h2>Warm Beaches And Turquoise Waters</h2>
+            <p>
+              There are 2 beautiful sunny beaches near Villa, conveniently
+              equipped with beach chairs, umbrellas, beach bar, showers and
+              trained life guards for your safety.
+            </p>
+            <ul class="text-container-list">
+              <li>Get sun exposure all day long due to the orientation</li>
+              <li>Gold sand which extends for a long stretch in the water</li>
+              <li>Amenities are built to provide maximum relaxation</li>
+            </ul>
+
+            <a href="#" class="text-container-link">Read More </a>
+          </div>
+        </div>
+
+        <!-- playground tab Content -->
+        <div class="tab-content-item dn" data-key="playground">
+          <div class="text-container mr-2">
+            <h2>Kids Are Happy When Having Fun</h2>
+            <p>
+              Children have their own space to have fun and play games under
+              adult supervision so you can enjoy a few moments of relaxation in
+              your room or some beach-front activities.
+            </p>
+            <p>
+              You can check up on them through the provided video surveillance
+              mobile app designed for parents.
+            </p>
+            <p class="bold-text">OPEN FROM 8:00 TO 22:00</p>
+          </div>
+          <div class="image-container">
+            <img src="images/playground.jpg" />
+          </div>
+        </div>
+
+        <!-- parking tab Content -->
+        <div class="tab-content-item dn" data-key="parking">
+          <div class="image-container mr-2">
+            <img src="images/parking.jpg" />
+          </div>
+
+          <div class="text-container">
+            <h2>No Need To Worry About Your Car</h2>
+            <p>
+              Villa offers free parking for all its customers in a safe and easy
+              to reach area. The parking area is guarded and supervised with
+              special cameras for your peace of mind
+            </p>
+            <ul class="text-container-list">
+              <li>Free access for any type of car and station wagon</li>
+              <li>Video surveillance and gated access as standard options</li>
+              <li>Enjoy your stay without being concerned about the car</li>
+            </ul>
+
+            <p class="bold-text">PARKING SCHEDULE: NON-STOP</p>
+          </div>
+        </div>
+      </div>
+      <!-- end of tab Content -->
+    </div>
+    <!-- <div class="circle1"></div>
+    <div class="circle2"></div> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
